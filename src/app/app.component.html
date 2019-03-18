@@ -7,9 +7,9 @@
     </ion-header>
     <ion-content>
       <ion-list>
-        <ion-item>Profile</ion-item>
-        <ion-item class="admin">Admin</ion-item>
-        <ion-item>Settings</ion-item>
+        <ion-item (click)='goProfile()'>Profile</ion-item>
+        <ion-item class="admin" (click)='goAdmin()'>Admin</ion-item>
+        <ion-item (click)='goSettings()'>Settings</ion-item>
       </ion-list>
     </ion-content>
   </ion-menu>
